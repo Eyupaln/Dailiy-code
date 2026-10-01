@@ -84,6 +84,49 @@ class Student:
 
 ---
 
+## Gerçek Hayat Simülasyonu: Banka Hesabı
+
+```python
+class BankaHesabi:
+    def __init__(self, hesap_no, ad, bakiye=0):
+        self.hesap_no = hesap_no
+        self.ad = ad
+        self.bakiye = bakiye
+
+    def para_yatir(self, miktar):
+        if miktar > 0:
+            self.bakiye += miktar
+            print(f"{miktar} TL yatırıldı. Yeni bakiye: {self.bakiye} TL")
+        else:
+            print("Geçersiz miktar!")
+
+    def para_cek(self, miktar):
+        if 0 < miktar <= self.bakiye:
+            self.bakiye -= miktar
+            print(f"{miktar} TL çekildi. Yeni bakiye: {self.bakiye} TL")
+        else:
+            print("Yetersiz bakiye!")
+
+    def bakiye_goruntule(self):
+        print(f"Hesap: {self.hesap_no}, Sahibi: {self.ad}, Bakiye: {self.bakiye} TL")
+
+
+# Hesap oluşturma
+hesap1 = BankaHesabi("123456", "Ali Yılmaz", 1000)
+hesap2 = BankaHesabi("789012", "Ayşe Demir", 500)
+
+# İşlemler
+hesap1.bakiye_goruntule()   # Hesap: 123456, Sahibi: Ali Yılmaz, Bakiye: 1000 TL
+hesap1.para_yatir(500)      # 500 TL yatırıldı. Yeni bakiye: 1500 TL
+hesap1.para_cek(200)        # 200 TL çekildi. Yeni bakiye: 1300 TL
+hesap1.bakiye_goruntule()   # Hesap: 123456, Sahibi: Ali Yılmaz, Bakiye: 1300 TL
+
+hesap2.bakiye_goruntule()   # Hesap: 789012, Sahibi: Ayşe Demir, Bakiye: 500 TL
+hesap2.para_cek(1000)       # Yetersiz bakiye!
+```
+
+---
+
 ## Özet Tablo
 
 | Kavram | Açıklama | Örnek |
