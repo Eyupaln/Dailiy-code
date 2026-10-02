@@ -15,6 +15,8 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 16 | Day 16 satır satır açıklama | [day16-satir-satir.md](python-100-days/day16-satir-satir.md) |
 | 17 | Dekoratörler ve recursion | [day17.md](python-100-days/day17.md) |
 | 18 | OOP giriş | [day18.md](python-100-days/day18.md) |
+| 19 | OOP ileri (kalıtım, çok biçimlilik) | [day19.md](python-100-days/day19.md) |
+| 20 | OOP uygulaması (poker oyunu) | [day20.md](python-100-days/day20.md) |
 | - | Müfredat | [mufredat.md](python-100-days/mufredat.md) |
 
 ### Günlük Loglar
@@ -25,6 +27,7 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 29 Eylül 2026 | [2026-09-29.md](2026-09-29.md) |
 | 30 Eylül 2026 | [2026-09-30.md](2026-09-30.md) |
 | 1 Ekim 2026 | [2026-10-01.md](2026-10-01.md) |
+| 2 Ekim 2026 | [2026-10-02.md](2026-10-02.md) |
 
 ### Python Kodları
 
@@ -37,6 +40,8 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 29 Eylül | BFS ve DFS anlatım | [2026-09-29-bfs-dfs-anlatim.md](daily-python/2026-09-29-bfs-dfs-anlatim.md) |
 | 30 Eylül | Graphs | [2026-09-30-graphs.md](daily-python/2026-09-30-graphs.md) |
 | 30 Eylül | Karışık quiz | [2026-09-30-mixed-quiz.md](daily-python/2026-09-30-mixed-quiz.md) |
+| 1 Ekim | Egzersiz (fonksiyon, liste, sınıf) | [2026-10-01-egzersiz.py](daily-python/2026-10-01-egzersiz.py) |
+| 2 Ekim | Kütüphane sistemi | [2026-10-02-kutuphane.py](daily-python/2026-10-02-kutuphane.py) |
 
 ## Nasıl Kullanıyorum?
 1. Her gün çalıştıktan sonra o günkü dosyayı güncellerim
