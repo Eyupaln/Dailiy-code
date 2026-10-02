@@ -46,8 +46,8 @@ class Card:
         # self: kartın kendisi
         # suite: kartın reği (Suite.SPADE, Suite.HEART, ...)
         # face: kartın değeri (1-13, 1=A, 11=J, 12=Q, 13=K)
-        self.suite = suite  # Renk
-        self.face = face    # Değer
+        self.suite = suite  #
+        self.face = face    # De Renkğer
 
     def __repr__(self):
         # Objeyi string olarak gösterir
