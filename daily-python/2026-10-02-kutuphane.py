@@ -26,6 +26,7 @@ class Kitap:
 # Her üyenin bir adı, üye numarası ve ödünç aldığı kitaplar vardır
 
 class Uye:
+    Max_kitap=5 
     def __init__(self, ad, uye_no):
         # Üye oluşturulurken ad ve üye numarası verilir
         self.ad = ad
@@ -35,6 +36,26 @@ class Uye:
     def __repr__(self):
         # Üyeyi string olarak gösterir
         return f'{self.ad} (Üye No: {self.uye_no})'
+
+class OgrenciUye(Uye):
+       def __init__(self,ad,uye_no,okul):
+           super().__init__(ad,uye_no)
+           self.okul=okul
+           self.Max_kitap=3
+
+       def __repr__(self):
+            # Üyeyi string olarak gösterir
+            return f'Öğrenci {self.ad} (Üye No: {self.uye_no})'
+
+class OgretmenUye(Uye):
+    def __init__(self,ad,uye_no,brans):
+        super().__init__(ad,uye_no)
+        self.brans=brans
+        self.Max_kitap=5
+
+    def __repr__(self):
+         # Üyeyi string olarak gösterir
+         return f'Öğretmen  :{self.ad} (Üye No: {self.uye_no} Brans : {self.brans})'
 
 
 # ============================================================
@@ -60,15 +81,16 @@ class Kutuphane:
 
     def odunc_ver(self, uye, kitap):
         # Üyeye kitap ödünç ver
+        if len(uye.odunc_alinanlar)>= uye.Max_kitap:
+            print(f"{uye.ad} en fazla {uye.Max_kitap} kitap alabilirsiniz")
+            return
         if kitap.odunc_mu:
-            # Kitap zaten ödünçte
-            print(f"'{kitap.ad}' zaten ödünçte.")
+            print(f"{kitap.ad} zaten ödüncte")
         else:
-            # Kitabı ödünç ver
-            kitap.odunc_mu = True
+            kitap.odunc_mu=True
             uye.odunc_alinanlar.append(kitap)
-            print(f"'{kitap.ad}' → '{uye.ad}' ödünç verildi.")
-
+            print(f"{kitap.ad}>{uye.ad} ödünc verildi")
+        
     def geri_al(self, uye, kitap):
         # Üyeden kitabı geri al
         if kitap in uye.odunc_alinanlar:
