@@ -18,6 +18,7 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 19 | OOP ileri (kalıtım, çok biçimlilik) | [day19.md](python-100-days/day19.md) |
 | 20 | OOP uygulaması (poker oyunu) | [day20.md](python-100-days/day20.md) |
 | 21 | Dosya okuma/yazma ve hata yönetimi | [day21.md](python-100-days/day21.md) |
+| 22 | JSON ve API kullanımı | [day22.md](python-100-days/day22.md) |
 | - | Müfredat | [mufredat.md](python-100-days/mufredat.md) |
 
 ### Günlük Loglar
@@ -29,6 +30,7 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 30 Eylül 2026 | [2026-09-30.md](2026-09-30.md) |
 | 1 Ekim 2026 | [2026-10-01.md](2026-10-01.md) |
 | 2 Ekim 2026 | [2026-10-02.md](2026-10-02.md) |
+| 3 Ekim 2026 | [2026-10-03.md](2026-10-03.md) |
 
 ### Python Kodları
 
@@ -43,6 +45,7 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 30 Eylül | Karışık quiz | [2026-09-30-mixed-quiz.md](daily-python/2026-09-30-mixed-quiz.md) |
 | 1 Ekim | Egzersiz (fonksiyon, liste, sınıf) | [2026-10-01-egzersiz.py](daily-python/2026-10-01-egzersiz.py) |
 | 2 Ekim | Kütüphane sistemi | [2026-10-02-kutuphane.py](daily-python/2026-10-02-kutuphane.py) |
+| 3 Ekim | Day 22: JSON ve API | [day22.md](python-100-days/day22.md) |
 
 ## Nasıl Kullanıyorum?
 1. Her gün çalıştıktan sonra o günkü dosyayı güncellerim

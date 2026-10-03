@@ -68,6 +68,7 @@
 | 19 | OOP ileri (kalıtım, çok biçimlilik) | ✅ | 2 Ekim |
 | 20 | OOP uygulaması (poker oyunu) | ✅ | 2 Ekim |
 | 21 | Dosya okuma/yazma ve hata yönetimi | ✅ | 3 Ekim |
+| 22 | JSON ve API kullanımı | ✅ | 3 Ekim |
 
 ---
 
@@ -100,14 +101,13 @@
 
 ### Kısa Vafte (1-2 hafta)
 
-1. **Day 22:** JSON ve API kullanımı
-2. **Day 23:** CSV dosyaları
-3. **Day 24-25:** Excel dosyaları
-4. **Day 26:** Word ve PowerPoint
-5. **Day 27:** PDF dosyaları
-6. **Day 28:** Görüntü işleme (Pillow)
-7. **Day 29:** E-posta ve SMS gönderme
-8. **Day 30:** Regex (düzenli ifadeler)
+1. **Day 23:** CSV dosyaları
+2. **Day 24-25:** Excel dosyaları
+3. **Day 26:** Word ve PowerPoint
+4. **Day 27:** PDF dosyaları
+5. **Day 28:** Görüntü işleme (Pillow)
+6. **Day 29:** E-posta ve SMS gönderme
+7. **Day 30:** Regex (düzenli ifadeler)
 
 ### Orta Vafta (2-4 hafta)
 
@@ -183,7 +183,7 @@
 | 30 Eylül | Graphs, Day 15-16 |
 | 1 Ekim | Day 17-20, OOP |
 | 2 Ekim | Kütüphane sistemi, poker oyunu |
-| 3 Ekim | Day 21, kütüphane sistemi güncellemesi |
+| 3 Ekim | Day 21, Day 22 (JSON, API), kütüphane sistemi, roadmap dosyası |
 
 ---
 
