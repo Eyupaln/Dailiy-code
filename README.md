@@ -17,6 +17,7 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 18 | OOP giriş | [day18.md](python-100-days/day18.md) |
 | 19 | OOP ileri (kalıtım, çok biçimlilik) | [day19.md](python-100-days/day19.md) |
 | 20 | OOP uygulaması (poker oyunu) | [day20.md](python-100-days/day20.md) |
+| 21 | Dosya okuma/yazma ve hata yönetimi | [day21.md](python-100-days/day21.md) |
 | - | Müfredat | [mufredat.md](python-100-days/mufredat.md) |
 
 ### Günlük Loglar
