@@ -19,6 +19,7 @@ Bu repo, günlük çalışma loglarını ve Python pratiklerini takip eder.
 | 20 | OOP uygulaması (poker oyunu) | [day20.md](python-100-days/day20.md) |
 | 21 | Dosya okuma/yazma ve hata yönetimi | [day21.md](python-100-days/day21.md) |
 | 22 | JSON ve API kullanımı | [day22.md](python-100-days/day22.md) |
+| 23 | CSV Dosyaları | [day23.md](days/day23.md) |
 | - | Müfredat | [mufredat.md](python-100-days/mufredat.md) |
 
 ### Günlük Loglar
